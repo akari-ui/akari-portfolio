@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="アカリ カシワギへのお問い合わせ・制作のご依頼はこちらから。Web制作、グラフィックデザイン、撮影依頼など、お気軽にご相談ください。">
+    <title>Contact | アカリ カシワギ ポートフォリオ</title>
+
+    <meta property="og:title" content="Contact | アカリ カシワギ ポートフォリオ">
+    <meta property="og:description" content="アカリ カシワギへのお問い合わせ・制作のご依頼はこちらから。">
+    <meta property="og:image" content="https://akari-ui.github.io/akari-portfolio/images/tt_fv_pc.jpg">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+
+     <!-- CSS -->
+    <link rel="stylesheet" href="css/destyle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+     <!-- Webfonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Overlock+SC&family=Tilt+Warp&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="images/favicon.ico">
+
+</head>
+
+<body class="firstAnimation">
+        <header class="headerWrapper">
+            <nav class="nav">
+                <button class="spNav_btn" aria-label="メニューを開く"></button>
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="index.html"><img src="images/icon-nav_top.svg" alt="">Top</a></li>
+                    <li class="nav_item"><a href="index.html#about"><img src="images/icon-nav_about.svg" alt="">About</a></li>
+                    <li class="nav_item"><a href="works.html"><img src="images/icon-nav_works.svg" alt="">Works</a></li>
+                    <li class="nav_item"><a href="index.html#contact"><img src="images/icon-nav_contact.svg" alt="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="contact-page" class="cf_section glovalWrapper">
+            <h1 class="title cf_title">
+                <span class="subtitle cf_subtitle gray">お問い合わせ</span>
+                <img src="images/contact0.svg" alt="Contact">
+            </h1>
+
+            <div class="cf_container">
+                <p class="cf_lead">制作のご依頼やご相談は、以下のフォームよりお気軽にご連絡ください。</p>
+                
+                <form action="https://formspree.io/f/あなたのID" method="POST" class="cf_form">
+                    <div class="cf_group">
+                        <label for="company" class="cf_label">貴社名</label>
+                        <input type="text" id="company" name="company" class="cf_input" placeholder="株式会社〇〇">
+                    </div>
+
+                    <div class="cf_group">
+                        <label for="department" class="cf_label">部署名</label>
+                        <input type="text" id="department" name="department" class="cf_input" placeholder="制作部">
+                    </div>
+
+                    <div class="cf_group">
+                        <label for="tel" class="cf_label">所属部署／代表電話番号</label>
+                        <input type="tel" id="tel" name="tel" class="cf_input" placeholder="03 XXXX XXXX">
+                    </div>
+
+                    <div class="cf_group">
+                        <label for="url" class="cf_label">貴社WEBサイトURL <span class="cf_kome">（実績確認用）</span></label>
+                        <input type="url" id="url" name="url" class="cf_input" placeholder="https://example.com">
+                    </div>
+
+                    <div class="cf_group">
+                        <label for="name" class="cf_label">お名前 <span class="cf_required">必須</span></label>
+                        <input type="text" id="name" name="name" class="cf_input" placeholder="山田 太郎" required>
+                    </div>
+                    
+                    <div class="cf_group">
+                        <label for="email" class="cf_label">メールアドレス <span class="cf_required">必須</span></label>
+                        <input type="email" id="email" name="_replyto" class="cf_input" placeholder="example@gmail.com" required>
+                    </div>
+
+                    <div class="cf_group">
+                        <p class="cf_label">お問い合わせ目的</p>
+                        <div class="cf_checkbox_group">
+                            <label class="cf_checkbox_label"><input type="radio" name="purpose" value="仕事のご依頼" onclick="toggleWorkDetail(true)"> お仕事のご依頼</label>
+                            <label class="cf_checkbox_label"><input type="radio" name="purpose" value="協業・業務委託等のご相談" onclick="toggleWorkDetail(false)"> 協業・業務委託等のご相談</label>
+                            <label class="cf_checkbox_label"><input type="radio" name="purpose" value="その他" onclick="toggleWorkDetail(false)"> その他</label>
+                        </div>
+                    </div>
+
+                    <div id="work_detail_area" class="cf_group" style="display: none; padding-left: 20px; border-left: 2px solid #f29a98;">
+                        <p class="cf_label">ご依頼内容の詳細<span class="cf_kome space">※複数選択可</span></p>
+                        <div class="cf_checkbox_group">
+                            <label class="cf_checkbox_label"><input type="checkbox" name="work_type" value="WEB制作"> WEB関連　制作／運用保守</label>
+                            <label class="cf_checkbox_label"><input type="checkbox" name="work_type" value="撮影／編集"> カメラ関連　撮影／編集</label>
+                            <label class="cf_checkbox_label"><input type="checkbox" name="work_type" value="SNS構築運用のお手伝い"> SNS関連　構築／運用</label>
+                            <label class="cf_checkbox_label"><input type="checkbox" name="work_type" value="その他"> その他</label>
+                        </div>
+                    </div>
+
+                    <div class="cf_group">
+                        <label for="message" class="cf_label">お問い合わせ内容 <span class="cf_required">必須</span></label>
+                        <p class="cf_kome">※納期や予算感、制作規模など決まっている部分があれば具体的にお聞かせください。</p>
+                        <textarea id="message" name="message" class="cf_textarea" rows="6" placeholder="ご相談内容をご記入ください" required></textarea>
+                    </div>
+
+                    <div class="cf_group cf_privacy">
+                        <label class="cf_checkbox_label">
+                            <input type="checkbox" name="privacy_agree" required>
+                            <span class="cf_privacy_text">
+                                <a href="privacy.html" target="_blank" class="cf_link">プライバシーポリシー</a>に同意する
+                            </span>
+                        </label>
+                    </div>
+                    <p class="cf_kome cvn">サービス等の営業目的の投稿は固くお断りいたします。</p>
+
+                    <div class="cf_btn_wrapper">
+                        <button type="submit" class="cv_button cf_submit">送信する</button>
+                    </div>
+
+                </form>
+
+
+            </div>
+        </section>
+
+<footer id="footer">
+    <div class="footer_inner">
+        <div class="footer_link">
+            <a href="privacy.html" target="_blank" class="footer_pp">プライバシーポリシー</a>
+            <div class="footer_sns">
+                <a href="https://note.com/akari_ui" target="_blank"><img class="footer_sns_icon" src="images/icon_contact_note_pink.svg" alt="note"></a>
+                <a href="https://www.instagram.com/dear_snap_akari" target="_blank"><img class="footer_sns_icon" src="images/icon_contact_insta_pink.svg" alt="instagram"></a>
+            </div>
+        </div>
+            <p class="footer_copyright">
+                <span class="footer_copy_icon">
+                    <img src="images/icon_copy.svg" alt="Copyright">
+                </span>
+                <small>2026 AKARI KASHIWAGI</small>
+            </p>
+    </div>
+</footer>
+    <script>
+    function toggleWorkDetail(show) {
+        const area = document.getElementById('work_detail_area');
+        area.style.display = show ? 'block' : 'none';
+    }
+    </script>
+</body>
+</html>
