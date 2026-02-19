@@ -1,0 +1,202 @@
+
+/* ==================================================================================================
+ページ固有
+================================================================================================== */
+.cf_section{
+    letter-spacing: 1px;
+}
+
+.cf_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cf_subtitle{
+    letter-spacing: 10px;
+}
+
+.subtitle::after{
+    display: none;
+}
+
+.cf_container {
+    margin: 0 auto;
+}
+
+.cf_lead {
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.8;
+    color: var(--primary-Gray);
+}
+
+/* フォームの各グループ（ラベルと入力欄のセット） */
+.cf_group {
+    margin-bottom: 24px;
+}
+
+.cf_label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--primary-Gray);
+    font-size: 14px;
+}
+
+/* 入力欄（共通） */
+.cf_input, 
+.cf_textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+/* 入力欄にマウスが乗った時 */
+.cf_input:hover, 
+.cf_textarea:hover {
+    border-color: var(--primary-pink); /* 柏木さんのメインピンク */
+}
+
+/* 入力欄をクリック（フォーカス）した時 */
+.cf_input:focus, 
+.cf_textarea:focus {
+    border-color: var(--primary-pink);
+    box-shadow: 0 0 8px rgba(242, 154, 152, 0.3);
+    background-color: #fffafb; /* ほんのり色づく */
+}
+
+/* 必須マークのスタイル */
+.cf_required {
+    background-color: #f29a98; /* メインピンク */
+    color: #fff;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+/* ラジオボタン・チェックボックスのグループ */
+.cf_checkbox_group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* 選択肢同士の間隔を少し広めに */
+    margin-top: 10px;
+}
+
+/* ラベル全体の調整 */
+.cf_checkbox_label {
+    display: flex;
+    align-items: center; /* 縦方向を中央に揃える */
+    cursor: pointer;
+    font-size: 15px;
+    color: #555;
+}
+
+/* 実際の丸ポチ・四角ポチ */
+.cf_checkbox_label input[type="radio"],
+.cf_checkbox_label input[type="checkbox"] {
+    /* 消さずにサイズを明示する */
+    width: 18px;
+    height: 18px;
+    margin-right: 8px; /* 文字との隙間 */
+    cursor: pointer;
+    
+    /* 柏木さんのメインピンクを適用 */
+    accent-color: #f29a98; 
+    
+    /* 他のスタイルに負けないよう強制適用（必要に応じて） */
+    display: inline-block;
+    appearance: auto; 
+}
+
+/* インデント（仕事詳細エリアの装飾） */
+#work_detail_area {
+    margin-top: -10px; /* 前のグループとの距離を詰める */
+    margin-bottom: 24px;
+    background-color: #fffafb; /* ほんのり背景色をつけて「子要素感」を出す */
+    padding: 15px 20px;
+    border-radius: 0 8px 8px 0;
+}
+
+/* テキストエリアの高さ調整 */
+.cf_textarea {
+    resize: vertical; /* ユーザーが縦方向にだけ伸ばせるように */
+}
+
+.cf_kome{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.cf_kome.space{
+    padding-left: 20px;
+}
+
+.cf_kome.cvn{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.cf_privacy {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* 中央寄せ */
+}
+
+.cf_privacy_text {
+    font-size: 14px;
+    color: #555;
+}
+
+.cf_link {
+    color: #f29a98; /* 柏木さんのピンク */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* 送信ボタンの配置 */
+.cf_btn_wrapper {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* 送信ボタンの微調整 */
+.cf_submit {
+    cursor: pointer;
+    border: none;
+    min-width: 200px;
+    color: var(--primary-white);
+    background-color: var(--primary-pink);
+    padding: 10px 20px;
+    line-height: 1;
+    border-radius: 30px;
+}
+
+.cf_input::placeholder,
+.cf_textarea::placeholder {
+    color: #ddd; 
+    opacity: 1;  /* Firefox対策 */
+}
+
+/* Internet Explorer用（念のため） */
+.cf_input:-ms-input-placeholder,
+.cf_textarea:-ms-input-placeholder {
+    color: #ddd;
+}
+
+/* スマホ表示の調整 */
+@media (max-width: 600px) {
+    .cf_lead {
+        font-size: 14px;
+        text-align: left; /* スマホでは左寄せが見やすい場合も */
+    }
+}
