@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" width="298.0547" height="108" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 298.0547 108">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-5 {
+        fill: #6a6869;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="148.0604" y="-35.8486" width="251.731" height="180.5896"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="-100.9396" y="-35.8486" width="251.731" height="180.5896"/>
+    </clipPath>
+    <mask id="mask" x="-100.9396" y="-38.1622" width="500.731" height="184.8099" maskUnits="userSpaceOnUse">
+      <g>
+        <g class="cls-4">
+          <g>
+            <ellipse class="cls-5" cx="149.557" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="158.4344" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="176.1892" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="193.944" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="211.6988" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="229.4536" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="247.2084" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="264.9632" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="282.718" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.557" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="167.3118" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="185.0666" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="202.8214" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="220.5762" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="238.331" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="256.0858" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="273.8406" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="291.5954" cy="105.2423" rx="1.4967" ry="1.4927"/>
+          </g>
+        </g>
+        <g class="cls-3">
+          <g>
+            <ellipse class="cls-5" cx="7.0858" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="3.2432" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="-1.1916" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="12.1127" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="7.6779" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="20.9822" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="16.5474" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="29.8517" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="25.4169" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="38.7211" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="34.2864" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="47.5906" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="43.1559" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="56.4601" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="52.0254" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="65.3296" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="60.8949" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="74.1991" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="69.7643" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="83.0686" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="78.6338" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="91.9381" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="87.5033" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="15.9632" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="33.718" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="51.4728" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="69.2276" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="86.9824" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="104.7372" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="122.492" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="140.2468" cy="100.8076" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="96.3728" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="7.0858" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="24.8406" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="42.5954" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="60.3502" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="78.105" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="95.8598" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="113.6146" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="131.3694" cy="105.2423" rx="1.4967" ry="1.4927"/>
+            <ellipse class="cls-5" cx="149.1242" cy="105.2423" rx="1.4967" ry="1.4927"/>
+          </g>
+        </g>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-2">
+    <g>
+      <path d="M49.9141,103.2754H13.688v-2.4321h8.4487V16.1035h-8.4487v-2.4321h39.5542c31.6172,0,49.1543,11.3926,49.1543,43.2656,0,36.0977-21.8892,46.3384-52.4824,46.3384ZM51.9619,100.8433c17.2808,0,24.0649-11.1367,24.0649-39.8101v-7.4243c0-31.1055-7.936-37.5054-25.8569-37.5054h-3.0723v84.7397h4.8643Z"/>
+      <path d="M142.7139,73.1938v-9.8564c0-16.2568-1.4082-20.481-6.5283-20.481-2.3042,0-6.0166,1.0239-6.0166,5.1206,0,1.0239.2563,2.3037.7681,3.7119h3.2002c.6401,1.6641,1.0239,3.3281,1.0239,5.7603,0,6.0161-4.8643,9.9844-11.2642,9.9844-7.9365,0-11.0088-4.3521-11.0088-10.6245,0-10.7524,9.3447-15.7446,26.7534-15.7446,20.0967,0,26.8813,5.6323,26.8813,24.1934v25.9849c0,5.2485,1.5361,6.6562,3.7119,6.6562,2.3042,0,4.4805-2.4321,5.1201-13.1846l1.9204.1279c-.6401,15.3608-5.3765,19.7134-16.3848,19.7134-10.3687,0-16.1289-3.2002-17.665-9.4727-2.0479,6.144-5.7603,9.4727-14.7207,9.4727s-18.9448-2.6885-18.9448-15.4888c0-12.9287,11.1367-15.873,29.4414-15.873h3.7124ZM142.7139,87.1465v-11.9043h-.8965c-5.376,0-7.936,3.8398-7.936,11.6484v2.0483c0,9.2163.896,10.4961,3.3281,10.4961s5.5044-4.0962,5.5044-12.2886Z"/>
+      <path d="M183.0317,44.6484h-7.04v-2.3037h7.04v-16.5132l23.8091-5.8882v22.4014h16.6411v2.3037h-16.6411v43.1382c0,7.5522,1.1523,11.6484,5.6323,11.6484,6.1445,0,9.9849-5.6323,11.1367-14.3364l2.1763.2559c-1.1523,9.9844-5.3765,19.2012-20.9932,19.2012-12.6729,0-21.7612-3.7124-21.7612-19.585v-40.3223Z"/>
+      <path d="M261.4971,73.1938v-9.8564c0-16.2568-1.4082-20.481-6.5283-20.481-2.3042,0-6.0166,1.0239-6.0166,5.1206,0,1.0239.2563,2.3037.7681,3.7119h3.2002c.6401,1.6641,1.0239,3.3281,1.0239,5.7603,0,6.0161-4.8643,9.9844-11.2642,9.9844-7.9365,0-11.0088-4.3521-11.0088-10.6245,0-10.7524,9.3447-15.7446,26.7534-15.7446,20.0967,0,26.8813,5.6323,26.8813,24.1934v25.9849c0,5.2485,1.5361,6.6562,3.7119,6.6562,2.3042,0,4.4805-2.4321,5.1201-13.1846l1.9204.1279c-.6401,15.3608-5.3765,19.7134-16.3848,19.7134-10.3687,0-16.1289-3.2002-17.665-9.4727-2.0479,6.144-5.7603,9.4727-14.7207,9.4727s-18.9448-2.6885-18.9448-15.4888c0-12.9287,11.1367-15.873,29.4414-15.873h3.7124ZM261.4971,87.1465v-11.9043h-.8965c-5.376,0-7.936,3.8398-7.936,11.6484v2.0483c0,9.2163.896,10.4961,3.3281,10.4961s5.5044-4.0962,5.5044-12.2886Z"/>
+    </g>
+  </g>
+  <g>
+    <path class="cls-5" d="M38.9141,96.2754H2.688v-2.4321h8.4487V9.1035H2.688v-2.4321h39.5542c31.6172,0,49.1543,11.3926,49.1543,43.2656,0,36.0977-21.8892,46.3384-52.4824,46.3384ZM40.9619,93.8433c17.2808,0,24.0649-11.1367,24.0649-39.8101v-7.4243c0-31.1055-7.936-37.5054-25.8569-37.5054h-3.0723v84.7397h4.8643Z"/>
+    <path class="cls-5" d="M131.7139,66.1938v-9.8564c0-16.2568-1.4082-20.481-6.5283-20.481-2.3042,0-6.0166,1.0239-6.0166,5.1206,0,1.0239.2563,2.3037.7681,3.7119h3.2002c.6401,1.6641,1.0239,3.3281,1.0239,5.7603,0,6.0161-4.8643,9.9844-11.2642,9.9844-7.9365,0-11.0088-4.3521-11.0088-10.6245,0-10.7524,9.3447-15.7446,26.7534-15.7446,20.0967,0,26.8813,5.6323,26.8813,24.1934v25.9849c0,5.2485,1.5361,6.6562,3.7119,6.6562,2.3042,0,4.4805-2.4321,5.1201-13.1846l1.9204.1279c-.6401,15.3608-5.3765,19.7134-16.3848,19.7134-10.3687,0-16.1289-3.2002-17.665-9.4727-2.0479,6.144-5.7603,9.4727-14.7207,9.4727s-18.9448-2.6885-18.9448-15.4888c0-12.9287,11.1367-15.873,29.4414-15.873h3.7124ZM131.7139,80.1465v-11.9043h-.8965c-5.376,0-7.936,3.8398-7.936,11.6484v2.0483c0,9.2163.896,10.4961,3.3281,10.4961s5.5044-4.0962,5.5044-12.2886Z"/>
+    <path class="cls-5" d="M172.0317,37.6484h-7.04v-2.3037h7.04v-16.5132l23.8091-5.8882v22.4014h16.6411v2.3037h-16.6411v43.1382c0,7.5522,1.1523,11.6484,5.6323,11.6484,6.1445,0,9.9849-5.6323,11.1367-14.3364l2.1763.2559c-1.1523,9.9844-5.3765,19.2012-20.9932,19.2012-12.6729,0-21.7612-3.7124-21.7612-19.585v-40.3223Z"/>
+    <path class="cls-5" d="M250.4971,66.1938v-9.8564c0-16.2568-1.4082-20.481-6.5283-20.481-2.3042,0-6.0166,1.0239-6.0166,5.1206,0,1.0239.2563,2.3037.7681,3.7119h3.2002c.6401,1.6641,1.0239,3.3281,1.0239,5.7603,0,6.0161-4.8643,9.9844-11.2642,9.9844-7.9365,0-11.0088-4.3521-11.0088-10.6245,0-10.7524,9.3447-15.7446,26.7534-15.7446,20.0967,0,26.8813,5.6323,26.8813,24.1934v25.9849c0,5.2485,1.5361,6.6562,3.7119,6.6562,2.3042,0,4.4805-2.4321,5.1201-13.1846l1.9204.1279c-.6401,15.3608-5.3765,19.7134-16.3848,19.7134-10.3687,0-16.1289-3.2002-17.665-9.4727-2.0479,6.144-5.7603,9.4727-14.7207,9.4727s-18.9448-2.6885-18.9448-15.4888c0-12.9287,11.1367-15.873,29.4414-15.873h3.7124ZM250.4971,80.1465v-11.9043h-.8965c-5.376,0-7.936,3.8398-7.936,11.6484v2.0483c0,9.2163.896,10.4961,3.3281,10.4961s5.5044-4.0962,5.5044-12.2886Z"/>
+  </g>
+</svg>
