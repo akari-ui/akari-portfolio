@@ -7,15 +7,22 @@ $(function() {
         $('.nav_list').toggleClass('is-open');
         $('body').toggleClass('noscroll');
     });
-    
-    // リンククリック時に閉じる
+
     $('.nav_item a').on('click', function() {
-        $('.spNav_btn').removeClass('is-open');
-        $('.nav_list').removeClass('is-open');
-        $('body').removeClass('noscroll');
+        const $btn = $('.spNav_btn');
+        const $list = $('.nav_list');
+        const $body = $('body');
+
+        // 0.1秒（100ms）だけ処理を遅らせる
+        // これだけで、遷移の瞬間のアイコン消失が目立たなくなります
+        setTimeout(function() {
+            $btn.removeClass('is-open');
+            $list.removeClass('is-open');
+            $body.removeClass('noscroll');
+        }, 100); 
     });
 
-    // 2. スライダー設定
+    // 2. スライダー設定（IntersectionObserverによるドットの連動）
     const setupSlider = (container) => {
         const slides = container.querySelectorAll('.al_slide');
         const dotsContainer = container.nextElementSibling;
@@ -34,10 +41,10 @@ $(function() {
     };
     document.querySelectorAll('.al_list').forEach(setupSlider);
 
-    // 3. GSAP登録
+    // 3. GSAPプラグインの登録
     gsap.registerPlugin(ScrollTrigger);
 
-    // 4. チャート（Top用・ガード付）
+    // 4. チャートアニメーション（Topページ用）
     if (document.querySelector(".td_pink-mask")) {
         gsap.to(".td_pink-mask", {
           scrollTrigger: {
@@ -51,7 +58,7 @@ $(function() {
         });
     }
 
-    // 5. チェックマーク（Top用・ガード付）
+    // 5. チェックマークの動き（Topページ用）
     const items = document.querySelectorAll('.td_item');
     const check = document.querySelector('.td_check-mark');
     if(items.length >= 3 && check && document.querySelector(".td_list_wrapper")) {
@@ -89,7 +96,7 @@ $(function() {
           .to(check, { scale: 1.3, duration: 0.15, yoyo: true, repeat: 1, ease: "power2.out" });
     }
 
-    // 6. Worksカテゴリー切り替え（安全版）
+    // 6. Worksカテゴリー切り替え
     const categoryTabs = $('.ww_category_tab');
     if (categoryTabs.length > 0) {
         categoryTabs.on('click', function() {
@@ -110,7 +117,6 @@ $(function() {
                         $(`.ww_card[data-category="${category}"]`).show();
                     }
                     
-                    // ここをGSAPが理解しやすい形に修正
                     const visibleCards = $('.ww_card:visible').toArray();
                     gsap.to(visibleCards, {
                         opacity: 1,
@@ -123,29 +129,23 @@ $(function() {
             });
         });
     }
-    // 7. Works詳細モーダル（他ページでのエラー防止ガード付）
-    const modal = $('#works_modal');
-    if (modal.length > 0) {
-        const closeBtn = $('.ww_modal_close_btn');
 
-        // カードをクリックした時に開く
-        $('.ww_card').on('click', function () {
-            modal.fadeIn(300);
-            $('body').addClass('noscroll'); // CSS側で .noscroll { overflow: hidden; } を作っている前提
-        });
+    // 7. Works詳細モーダル（複数モーダル対応版）
+    // カードをクリックして対応するIDのモーダルを開く
+    $('.ww_card').on('click', function() {
+        const targetId = $(this).data('modal');
+        if (targetId) {
+            $('#' + targetId).fadeIn(300);
+            $('body').css('overflow', 'hidden'); // 背景スクロール禁止
+        }
+    });
 
-        // 閉じるボタンで閉じる
-        closeBtn.on('click', function () {
-            modal.fadeOut(300);
-            $('body').removeClass('noscroll');
-        });
-
-        // 外側をクリックしたら閉じる
-        modal.on('click', function (e) {
-            if (!$(e.target).closest('.ww_modal_content').length) {
-                modal.fadeOut(300);
-                $('body').removeClass('noscroll');
-            }
-        });
-    }
+    // モーダルを閉じる処理（オーバーレイ、または閉じるボタンをクリック）
+    $('.ww_modal_overlay').on('click', function(e) {
+        // ボタンをクリック、または「背景（contentの外側）」をクリックした時に閉じる
+        if($(e.target).hasClass('ww_modal_close_btn') || !$(e.target).closest('.ww_modal_content').length) {
+            $(this).fadeOut(300);
+            $('body').css('overflow', ''); // スクロール再開
+        }
+    });
 });
