@@ -4,6 +4,9 @@
     --primary-Gray: #6A6869;
     --primary-pink: #F29A98;
     --primary-yellow: #FFDB38;
+    /* --works-color: #A68B7C; */
+    --works-color: #A5A1A3;
+
     --cvn_green: #45B7AF;
     --contentWidth: 100%;
     --contentPdding: 4%;
@@ -48,9 +51,9 @@ body{
 
 .ww_category_tab {
     padding: 5px 24px;
-    border: 1px solid #E69B9B;
+    border: 1px solid var(--works-color);
     border-radius: 30px;
-    color: #E69B9B;
+    color: var(--works-color);
     font-size: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -59,7 +62,7 @@ body{
 
 .ww_category_tab.active,
 .ww_category_tab:hover {
-    background-color: #E69B9B;
+    background-color: var(--works-color);
     color: #fff;
 }
 
@@ -85,7 +88,7 @@ body{
     margin-bottom: 15px; /* 影の分、少し余白を広げると綺麗です */
     
     /* Figmaの設定を反映: X Y ぼかし 広がり 色 */
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 .ww_thumb {
@@ -96,8 +99,7 @@ body{
 }
 
 .ww_card:hover .ww_thumb {
-    transform: scale(1.1);
-    filter: brightness(1.04);
+    transform: scale(1.05);
 }
 
 .ww_thumb_wrapper {
@@ -127,10 +129,10 @@ body{
     position: relative;
     display: inline-block;
     padding: 3px 14px;
-    border: 1px solid #E69B9B;
+    border: 1px solid var(--works-color);
     border-radius: 20px;
     background: #fff;
-    color: #E69B9B;
+    color: var(--works-color);
     font-size: 11px;
     z-index: 1;
 }
@@ -143,7 +145,7 @@ body{
     left: 5px;
     width: 100%;
     height: 100%;
-    background-image: radial-gradient(#E69B9B 1px, transparent 1px);
+    background-image: radial-gradient(var(--works-color) 1px, transparent 1px);
     background-size: 4px 4px; /* ドットの細かさ */
     z-index: -1;
     opacity: 0.4; /* 主役を邪魔しない薄さ */
@@ -190,15 +192,19 @@ body{
     overflow-y: auto;
 }
 
-/* 2. モーダル本体（ピンクの太枠） */
+/* 2. モーダル本体 */
 .ww_modal_content {
     position: relative;
     background: #fff;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 40px auto;
-    border: 3px solid #f19a9a; /* あかりさんのデザイン案のピンク色 */
+    /* border: 3px solid var(--works-color); */
     border-radius: 15px;
     padding: 50px 50px;
+}
+
+.ww_modal_inner{
+    margin-bottom: 40px;
 }
 
 /* 3. 閉じるボタン */
@@ -209,7 +215,7 @@ body{
     margin-bottom: 20px; /* コンテンツとの間隔 */
 
 
-    background-color: var(--primary-Gray);
+    background-color: var(--works-color);
     color: #fff;
     padding: 6px 24px;
     border-radius: 20px;
@@ -229,7 +235,13 @@ body{
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.ww_modal_typeLink{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
 }
 
 .ww_modal_image_side {
@@ -246,30 +258,37 @@ body{
 .ww_modal_type {
     font-size: 16px;
     color: #666;
-    margin-bottom: 30px;
 }
 
 .ww_modal_description {
     line-height: 1.7;
-    margin-bottom: 40px;
+    margin-top: 40px; /* ここでHeaderとの間隔を指定 */
+    margin-bottom: 0; /* 下側の謎の余白を消すならここも0に */
 }
 
-/* Pointセクション（背景ピンクのボックス） */
+/* Pointセクション*/
 .ww_modal_point_inner {
-    background-color: var(--primary-whitePink);
+    background-color: #FAFAFA;
     border-radius: 15px;
     padding: 30px;
 }
 
 .ww_modal_point_title {
     font-size: 20px;
-    color: #f19a9a;
     font-weight: bold;
     margin-bottom: 20px;
 }
+.ww_modal_typeLink a{
+    color: var(--works-color);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 1px;
+}
+
 
 .ww_modal_point_item {
     margin-bottom: 20px;
+    line-height: 1.7;
 }
 
 .ww_modal_point_item:last-child {
@@ -281,39 +300,40 @@ body{
     margin-bottom: 10px;
 }
 
-.ww_modal_point_item p{
-    line-height: 1.7;
-}
-
-/* 画像ギャラリー */
-.ww_modal_gallery_img {
-    width: 100%;
-    margin-bottom: 30px;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.2);
-    /* border-radius: 8px; */
-}
-
 /* 5. 下段：横幅いっぱいのデータリスト */
 .ww_modal_bottom {
     border-top: 1px solid #eee; 
     padding-top: 40px;
 }
 
+.ww_modal_data_list{
+    line-height: 1.7;
+}
+
 .ww_modal_data_item {
     display: flex;
-    margin-bottom: 20px;
-    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.ww_modal_data_item:last-child {
+    margin-bottom: 40px;
 }
 
 .ww_modal_data_item dt {
-    width: 120px; /* 項目名の幅を固定して揃える */
+    width: 151px; /* 項目名の幅を固定して揃える */
     font-weight: bold;
     flex-shrink: 0;
 }
 
+.pcBr{
+    display: block;
+}
+
 .ww_modal_data_item--full {
+    border-top: 1px solid #eee; 
+    padding-top: 40px;
+    margin-top: 40px;
     flex-direction: column;
-    margin-top: 20px;
 }
 
 .ww_modal_data_item--full dt {
@@ -322,37 +342,30 @@ body{
 }
 
 .ww_modal_detail_free {
-    display: block; /* 縦に積む */
-    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
 }
 
-.ww_modal_detail_free p {
-    margin-bottom: 15px;
+.ww_modal_detail_free p{
+    display: flex;
+    flex-wrap: wrap; 
     line-height: 1.8;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.ww_modal_detail_free img {
-    display: block;
-    width: 100%;       
-    max-width: 800px;  
-    height: auto;
-    margin: 20px 0 30px; 
-    border: 1px solid #eee;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+.ww_modal_detail_free p:first-child{
+    margin-top: 10px;
 }
 
 .ww_modal_detail_free_label{
-    background-color: var(--primary-pink);
-    color: var(--primary-white);
-    border-radius: 30px;
-    padding: 5px 25px;
-    line-height: 1;
-    display: table;
-    margin-bottom: 8px;
+    width: 151px;
 }
 
-.ww_modal_detail_free_label:first-child{
-    margin-top: 10px;
+.ww_modal_detail_text{
+    color: var(--works-color);
 }
 
 @media (max-width: 900px) {
@@ -367,6 +380,10 @@ body{
     .ww_modal_data_item {
         flex-direction: column;
         gap: 5px;
+    }
+
+    .pcBr{
+        display: none;
     }
 }
 

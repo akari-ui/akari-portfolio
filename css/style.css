@@ -79,6 +79,7 @@ img {
     align-items: center;
     gap: 16px;
     margin-top: 14px;
+    font-weight: 500;
 }
 
 .subtitle::after {
@@ -184,7 +185,7 @@ header
     z-index: 10;
 }
 
-.nav {
+/* .nav {
     position: absolute;
     top: 0;
     left: 0;
@@ -193,6 +194,15 @@ header
     padding: 20px 0 60px;
 
     z-index: 20;
+} */
+
+.nav {
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    width: 100%;     
+    z-index: 9999;   
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .nav_list {
@@ -204,6 +214,12 @@ header
     font-size: 20px;
     padding-right: 4%;
     letter-spacing: 2px;
+
+    position: fixed;   
+    top: 25px;         
+    right: 0;         
+    width: 100%;      
+    z-index: 9999;     
 }
 
 @media screen and (max-width: 599px) {
@@ -213,7 +229,34 @@ header
 
 
     .nav_list {
-        display: none;
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+
+        /* 1. 幅を画面の約半分〜6割くらいに変更 */
+        width: 60%;
+        height: 80vh;
+        flex-direction: column;
+        justify-content: center;
+
+        /* 2. 背景色を白（透過なし）にして、左側に角丸をつける */
+        background-color: #fff;
+        border-radius: 0 0 0 30px;
+        /* 左上と左下に大きな角丸 */
+
+        /* 3. 影をつけて浮かんでいる感じを出す（お好みで） */
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+
+        z-index: 100;
+        padding: 0;
+        margin: 0;
+        gap: clamp(20px, 6.04vh, 60px);
+
+        /* アニメーション設定 */
+        transform: translateX(100%);
+        transition: transform 0.4s ease;
+        /* transition: all より transform 指定がスムーズです */
     }
 
     .spNav_btn {
@@ -235,43 +278,35 @@ header
         z-index: 30;
     }
 
-    .spNav_btn.is-open {
-        display: flex;
+    button.spNav_btn.is-open {
+        display: block;
         background-image: url("../images/btn-close.svg");
+
+        position: fixed;
+        /* 画面に対して固定 */
+        top: 15px;
+        /* 閉じる前と同じ位置をキープ */
+        right: 4%;
+        /* 閉じる前と同じ位置をキープ */
+        z-index: 110;
+        /* 白いメニュー（z-index: 100）より上に表示 */
     }
 
     .nav_list.is-open {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        gap: clamp(20px, 6.04vh, 60px);
-        background-color: rgba(255, 255, 255, 0.9);
-
-        z-index: 100;
-        padding: 0;
-        margin: 0;
+        transform: translateX(0);
     }
 
     .nav_list.is-open .nav_item img {
         display: block;
-        /* 非表示を解除 */
         width: 30px;
-        /* デザインに合わせたサイズ */
         height: auto;
     }
-
 
     /* テキストとアイコンを横に並べる */
     .nav_item a {
         display: flex;
         align-items: center;
         gap: 15px;
-        /* アイコンと文字の間隔 */
         font-size: 2.0rem;
         color: var(--primary-Gray);
         text-decoration: none;
@@ -302,6 +337,7 @@ About
 .ta_name_jp {
     font-size: 32px;
     font-family: "Noto Serif JP", serif;
+    font-weight: 500;
     line-height: 1.5;
 }
 
@@ -492,7 +528,7 @@ Data
     }
 
     .td_photo_area img {
-        width: 70vw;
+        width: 40vw;
         max-width: 350px;
         height: auto;
     }
@@ -644,7 +680,7 @@ likes
 
 .al_slide h4 {
     font-size: clamp(18px, 1.389vw, 20px);
-    font-weight: bold;
+    font-weight: 500;
     line-height: 1.5;
     margin-top: 10px;
     letter-spacing: 2px;
@@ -653,6 +689,7 @@ likes
 .al_slide p {
     font-size: 16px;
     margin-top: 10px;
+    text-align: left;
 }
 
 .al_slide img {
@@ -668,18 +705,25 @@ likes
     }
 }
 
+@media screen and (max-width: 2250px) {
+    .likes_tobe_Wrapper::after {
+        bottom: 700px;
+    }
+}
 
 @media screen and (max-width: 2200px) {
     #likes::before {
         top: 100px;
     }
+}
 
+@media screen and (max-width: 2000px) {
     .likes_tobe_Wrapper::after {
-        bottom: 650px;
+        bottom: 600px;
     }
 }
 
-@media screen and (max-width: 1840px) {
+@media screen and (max-width: 1770px) {
     .likes_tobe_Wrapper::after {
         bottom: 500px;
     }
@@ -697,11 +741,12 @@ likes
     }
 }
 
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1070px) {
     .likes_tobe_Wrapper::after {
-        bottom: 230px;
+        bottom: 250px;
     }
 }
+
 
 @media screen and (max-width: 1023px) {
     #likes .title {
@@ -765,33 +810,34 @@ likes
     }
 
     .likes_tobe_Wrapper::after {
-        bottom: 1250px;
+        bottom: 900px;
+        width: 110%;
         background: url("../images/deco_likes_line_sp.svg") no-repeat center top / contain;
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 910px) {
     .likes_tobe_Wrapper::after {
-        bottom: 1150px;
+        bottom: 800px;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 780px) {
     .likes_tobe_Wrapper::after {
-        bottom: 1050px;
+        bottom: 700px;
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 685px) {
     .likes_tobe_Wrapper::after {
-        bottom: 950px;
-        width: 170%;
+        width: 140%;
     }
 }
 
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 630px) {
     .likes_tobe_Wrapper::after {
-        bottom: 850px;
+        bottom: 630px;
     }
 }
 
@@ -800,35 +846,29 @@ likes
         margin-top: 170px;
     }
 
-    .likes_tobe_Wrapper::after {
-        bottom: 750px;
-        width: 200%;
-    }
-
     .slider_dots span {
         width: 8px;
         height: 8px;
     }
-}
-
-@media screen and (max-width: 532px) {
 
     .likes_tobe_Wrapper::after {
-        bottom: 680px;
+        bottom: 530px;
     }
 }
+
+
 
 @media screen and (max-width: 500px) {
     #likes .title {
         margin-top: 130px;
     }
+
+    .likes_tobe_Wrapper::after {
+        width: 170%;
+    }
+    
 }
 
-@media screen and (max-width: 440px) {
-    .likes_tobe_Wrapper::after {
-        bottom: 620px;
-    }
-}
 
 
 @media screen and (max-width: 400px) {
@@ -836,6 +876,8 @@ likes
         margin-top: 80px;
     }
 }
+
+
 
 
 /* ==================================================================================================
@@ -877,6 +919,15 @@ tobe
     .tt_infWrapper {
         flex-direction: column-reverse;
     }
+
+    .tt_infWrapper picture{
+        width: 70%;
+    }
+
+    .tt_infWrapper picture img {
+    width: 100%; 
+    border-radius: 10px;
+}
 
     .tt_txtWrapper {
         padding: 0 100px;
@@ -1010,11 +1061,12 @@ more
         background: url("../images/bg_more_sp.svg") no-repeat right center;
         background-size: contain;
         height: 100%;
-        top: 700px;
+        top: 750px;
         left: auto;
         right: 0;
-        width: 300px;
-        transform: translateY(-50%);
+        width: 500px;
+        transform: translateY(-50%) scale(1.7); /* 1.5倍に拡大 */
+        transform-origin: right center;
     }
 
     .tm_content_wrapper {
@@ -1093,6 +1145,10 @@ contact
 
 .tc_info .tc_icon_mail {
     width: 20px;
+}
+
+.tc_lead{
+    font-weight: 500;
 }
 
 .tc_btn_wrapper {
@@ -1405,6 +1461,11 @@ footer
     height: auto;
     transform: translateY(1px);
 }
+
+.footer_sns_icon.note{
+    width: 40px;
+}
+
 
 @media screen and (max-width: 530px) {
     .footer_inner {
