@@ -21,6 +21,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Overlock+SC&family=Tilt+Warp&display=swap" rel="stylesheet">
 
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Serif+JP:wght@200..900&family=Overlock+SC&family=Tilt+Warp&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@4.0.0/dist/css/yakuhanjp-narrow.min.css"> -->
+
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
     <link rel="alternate icon" href="images/favicon.ico">
 
@@ -49,8 +54,8 @@
             <div id="works_list" class="glovalWrapper">
                 <div class="ww_category_wrapper">
                     <p class="ww_category_lead">
-                        <img class="ww_category_lead_icon" src="images/works_icon.svg" alt="">
-                        <img class="ww_category_lead_title" src="images/select_category.svg" alt="Select Category">
+                        <!-- <img class="ww_category_lead_icon" src="images/works_icon.svg" alt=""> -->
+                        <img class="ww_category_lead_title" src="images/select category.svg" alt="Select Category">
                     </p>
                     <div class="ww_category_tabs">
                         <button class="ww_category_tab active" data-category="all">All</button>
@@ -62,9 +67,9 @@
                 </div>
 
                 <div class="ww_grid">
-                    <article class="ww_card" data-category="web">
+                    <article class="ww_card" data-modal="modal01" data-category="web">
                         <div class="ww_thumb_wrapper">
-                            <img src="images/work_thumb_01.jpg" alt="アカリ　カシワギのポートフォリオサイト" class="ww_thumb">
+                            <img src="images/mockDrop_iMac on a table.jpg" alt="アカリ　カシワギのポートフォリオサイト" class="ww_thumb">
                         </div>
                         <div class="ww_info">
                             <h2 class="ww_title">アカリ　カシワギ</h2>
@@ -79,25 +84,25 @@
                         </div>
                     </article>
 
-                    <article class="ww_card" data-category="photo">
+                    <article class="ww_card" data-modal="modal02" data-category="photo">
                         <div class="ww_thumb_wrapper">
-                            <img src="images/image_cat.webp" alt="作品名が入ります" class="ww_thumb">
+                            <img src="images/work_thumb_02.png" alt="パーソナルジムジープス様宣伝用写真" class="ww_thumb">
                         </div>
                         <div class="ww_info">
-                            <h2 class="ww_title">◯◯◯◯◯◯◯◯様</h2>
-                            <p class="ww_type">プロフィール写真</p>
+                            <h2 class="ww_title">パーソナルジムジープス様</h2>
+                            <p class="ww_type">広告・WEB掲載用宣材写真</p>
                             <div class="ww_tags">
                                 <span class="ww_tag">Photography</span>
                             </div>
                         </div>
                     </article>
 
-                    <article class="ww_card" data-category="photo">
+                    <article class="ww_card" data-modal="modal03" data-category="photo">
                         <div class="ww_thumb_wrapper">
-                            <img src="images/image_cat.webp" alt="作品名が入ります" class="ww_thumb">
+                            <img src="images/5.png" alt="おのくんプロフィール写真" class="ww_thumb">
                         </div>
                         <div class="ww_info">
-                            <h2 class="ww_title">◯◯◯◯◯◯◯◯様</h2>
+                            <h2 class="ww_title">おのくん</h2>
                             <p class="ww_type">プロフィール写真</p>
                             <div class="ww_tags">
                                 <span class="ww_tag">Photography</span>
@@ -150,7 +155,7 @@
         <div class="footer_link">
             <a href="privacy.html" target="_blank" class="footer_pp">プライバシーポリシー</a>
             <div class="footer_sns">
-                <a href="https://note.com/akari_ui" target="_blank"><img class="footer_sns_icon" src="images/icon_contact_note_pink.svg" alt="note"></a>
+                <a href="https://note.com/akari_ui" target="_blank"><img class="footer_sns_icon note" src="images/icon_contact_note_pink.svg" alt="note"></a>
                 <a href="https://www.instagram.com/dear_snap_akari" target="_blank"><img class="footer_sns_icon" src="images/icon_contact_insta_pink.svg" alt="instagram"></a>
             </div>
         </div>
@@ -163,100 +168,245 @@
     </div>
 </footer>
 
-    <div id="works_modal" class="ww_modal_overlay">
-        <div class="ww_modal_content">
-            <button class="ww_modal_close_btn">Close</button>
+<!-- あかりポートフォリオサイトモーダル -->
+<div id="modal01" class="ww_modal_overlay">
+    <div class="ww_modal_content">
 
-            <div class="ww_modal_inner">
-                
-                <div class="ww_modal_top">
-                    <div class="ww_modal_text_side">
-                        <div class="ww_modal_header">
-                            <h2 class="ww_modal_title">アカリ　カシワギ</h2>
+        <div class="ww_modal_inner">
+            <img src="images/work_top_01.jpg" alt="">
+            <div class="ww_modal_top">
+
+                <div class="ww_modal_text_side">
+                    <div class="ww_modal_header">
+                        <h2 class="ww_modal_title">アカリ　カシワギ</h2>
+                        <div class="ww_modal_typeLink">
                             <p class="ww_modal_type">ポートフォリオサイト</p>
+                            <a href="https://akari-ui.github.io/akari-portfolio">https://akari-ui.github.io/akari-portfolio</a>
                         </div>
-                        <div class="ww_modal_description">
+                    </div>
+                    <div class="ww_modal_description">
+                        <p>
+                            私自身のポートフォリオサイトです。
+                            <br>
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="ww_modal_bottom">
+                <dl class="ww_modal_data_list">
+                    <div class="ww_modal_data_item">
+                        <dt>ターゲット</dt>
+                        <dd>①企業の採用担当者<br>②WEB関連の業務や写真撮影を相談・依頼したいお客様</dd>
+                    </div>
+                    <div class="ww_modal_data_item">
+                        <dt>制作目的</dt>
+                        <dd>①クリエイターとしての自己紹介<br>②問い合わせ窓口の構築
+                        </dd>
+                    </div>
+                    <div class="ww_modal_data_item">
+                        <dt>課題</dt>
+                        <dd>①まとまったポートフォリオがない<br>②問い合わせ窓口がない</dd>
+                    </div>
+                    <div class="ww_modal_data_item">
+                        <dt>情報設計</dt>
+                        <dd>一般的なポートフォリオサイトとの差別化ポイントとして私の顔や人物像が解像度高く伝わるよう意識しています。<br
+                                class="pcBr">また忙しい方も少ない手数で必要情報を得られるよう、自己紹介のトップページ、作品・技術紹介のWorksページ、問い合わせ用のContactページとシンプルなページ構成にまとめました。<br>ユーザーは一般のお客様と法人様どちらも想定しているため、問い合わせ導線を公式LINEと問い合わせフォームに分けて設置しています。
+                        </dd>
+                    </div>
+                    <div class="ww_modal_data_item">
+                        <dt>デザイン</dt>
+                        <dd>個人の色を出すか、シンプルに洗練された印象にまとめるかが悩みどころでした。最終的には印象的かつ私自身が伝わりやすい前者を選択し、友人に撮ってもらった写真を主役にピンクをベースとした柔らかく明るい印象のサイトにまとめています。<br
+                                class="pcBr">セクションを左右交互に見せたり、topページの背景に私の好きなものを散りばめたりと遊び心を感じられるような工夫を意識しました。<br
+                                class="pcBr">私の写真や小さなアイコン類を除く、ロゴ、イラスト、写真などは自分自身で制作しています。</dd>
+                    </div>
+                    <div class="ww_modal_data_item">
+                        <dt>コーディング</dt>
+                        <dd>HTMLは効率化の観点から一旦AI先行で組み誤っている部分を私の方で指摘や修正する形で進め、CSSはAI精度の問題から自分先行で組み、組みきれない部分をAIに助けてもらう形で組んでいます。JavaScriptに関しては知識がほぼ無く、AI主導です。<br
+                                class="pcBr"> 大きな装飾がサイト内の大事なアクセントなので、画面幅変動に伴う配置調整にはこだわりました。</dd>
+                    </div>
+                    <div class="ww_modal_data_item">
+                        <dt>その他</dt>
+                        <dd>セキュリティ性やサイトの維持コストは重視しておりネットで調べつつ最善策を検討しました。<br
+                                class="pcBr">それらの検討結果はアップロード構成や問い合わせページの構築、質問項目の書きっぷりに反映しています。</dd>
+                    </div>
+                    <div class="ww_modal_data_item ww_modal_data_item--full">
+                        <dt>その他詳細</dt>
+                        <dd class="ww_modal_detail_free">
                             <p>
-                                私自身のポートフォリオサイトです。友人に撮ってもらった壁フォトを使いたくて、ピンクをベースとした柔らかく明るい印象のサイトにまとめました。
-                                <br>時間のない方が少ない手数で情報を得られるよう、自己紹介のトップページ、作品・技術紹介のWorksページ、問い合わせ用のContactページとシンプルな構成にしました。
+                                <span class="ww_modal_detail_free_label">制作年</span>
+                                <span class="ww_modal_detail_text">2026</span>
                             </p>
-                        </div>
-                        
-                        <div class="ww_modal_points">
-                            <div class="ww_modal_point_inner">
-                                <h3 class="ww_modal_point_title">Point</h3>
-                                <div class="ww_modal_point_content">
-                                    <div class="ww_modal_point_item">
-                                        <h4 class="ww_modal_point_sub">1. 読み飽きない工夫</h4>
-                                        <p>セクションタイトルを左右交互に配置したり、Likesに掲載した好きなものや特技をさりげなく装飾に登場させたりと遊び心を散りばめています。</p>
-                                    </div>
-                                    <div class="ww_modal_point_item">
-                                        <h4 class="ww_modal_point_sub">2. 私という「人間」が伝わる情報構成</h4>
-                                        <p>技術に併せて私自身の人柄や個性、何が得意で何が苦手なのか「中身」の部分を垣間見てもらえるような内容にしました。</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <p>
+                                <span class="ww_modal_detail_free_label">アップロード構成</span>
+                                <span class="ww_modal_detail_text">GitHub Pages + 外部フォームサービス（Formspree）</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">担当領域(期間)</span>
+                                <span class="ww_modal_detail_text">企画（1w）、情報設計(1w)、WF(1w)、デザイン(2w)、コーディング(3w)</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">利用ツール</span>
+                                <span class="ww_modal_detail_text">figma、Illustrator、Photoshop、VSCode</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">コーディング言語</span>
+                                <span class="ww_modal_detail_text">HTML、CSS、JavaScript</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">撮影機材</span>
+                                <span class="ww_modal_detail_text">SONY α7S III / FE 70-200mm F2.8 GM</span>
+                            </p>
+                        </dd>
                     </div>
-
-                    <div class="ww_modal_image_side">
-                        <div class="ww_modal_gallery">
-                            <img src="images/work_thumb_01.jpg" alt="" class="ww_modal_gallery_img">
-                            <img src="images/work_thumb_01_02.jpg" alt="" class="ww_modal_gallery_img">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="ww_modal_bottom">
-                    <dl class="ww_modal_data_list">
-                        <div class="ww_modal_data_item">
-                            <dt>url</dt>
-                            <dd>XXXXXXXX</dd>
-                        </div>
-                        <div class="ww_modal_data_item">
-                            <dt>制作年</dt>
-                            <dd>2026</dd>
-                        </div>
-                        <div class="ww_modal_data_item">
-                            <dt>制作期間</dt>
-                            <dd>2ヶ月</dd>
-                        </div>
-                        <div class="ww_modal_data_item ww_modal_data_item--full">
-                            <dt>制作目的</dt>
-                            <dd>
-                                <p>クリエイターとしての自己紹介をし、就職やお仕事の受注に繋げるため</p>
-                            </dd>
-                        </div>
-                        <div class="ww_modal_data_item ww_modal_data_item--full">
-                            <dt>ターゲット</dt>
-                            <dd>
-                                <p>企業の採用担当者、依頼先を探しているお客様</p>
-                            </dd>
-                        </div>
-                        <div class="ww_modal_data_item ww_modal_data_item--full">
-                            <dt>技法、素材など詳細のご紹介</dt>
-                            <dd class="ww_modal_detail_free">
-                                <p><span class="ww_modal_detail_free_label">アップロード構成</span>GitHub Pages + 外部フォームサービス（Formspree）</p>
-                                <p><span class="ww_modal_detail_free_label">装飾</span>複雑な装飾はIllustratorで制作、小さなアイコンはfigmaのプラグインから選定しました。写真の切り抜きはPhotoshopで行なっています。
-                                <p>ロゴタイトルはIllustratorでドットと文字でマスクを作り、それとずらして文字を重ねることで作っています。
-                                デザイン当初はfigmaで作っていましたが、画像の書き出しサイズの微調整ができず、Illustratorで作り直すという苦労話がありました。</p>
-                                <img src="images/work_detail_01.png" alt="">
-                                <p>ドット絵はパスをグリット分割し作っています。写真と同じ衣装の私にカメラと猫じゃらしを持たせています。</p>
-                                <img src="images/work_detail_02.png" alt="">
-                                
-                            </dd>
-                        </div>
-                    </dl>
-                </div>
-
+                </dl>
             </div>
         </div>
+        <button class="ww_modal_close_btn">Close</button>
     </div>
+</div>
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    
-    <script src="js/main.js"></script>
+<!-- ジープス様モーダル -->
+<div id="modal02" class="ww_modal_overlay">
+    <div class="ww_modal_content">
+
+        <div class="ww_modal_inner">
+            <img src="images/work_top_02.jpg" alt="">
+            <div class="ww_modal_top">
+
+                <div class="ww_modal_text_side">
+                    <div class="ww_modal_header">
+                        <h2 class="ww_modal_title">パーソナルジムジープス様</h2>
+                        <div class="ww_modal_typeLink">
+                            <p class="ww_modal_type">Web・広告掲載用写真</p>
+                        </div>
+                    </div>
+                    <div class="ww_modal_description">
+                        <p>
+                            ホームページやチラシでの利用を目的とした店舗撮影をさせていただきました。
+                            今風なクールで清潔感たっぷりの施設の良さを感じてもらいつつも、病院提携ジムならではの信頼感や親しみやすさが伝わるようにトレーナーさん達の表情がよく見えるように撮影しました。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ww_modal_bottom">
+                <dl class="ww_modal_data_list">
+                    <div class="ww_modal_data_item">
+                        <dt>撮影前のポイント</dt>
+                        <dd>①照明なしで撮影できそうか室内の窓配置等を事前確認
+                            <br>②撮影時間が限られている分、撮影シーンの絞り込みを依頼
+                            <br>③施術などの接客シーンにモデルさんの用意を依頼</dd>
+                    </div>
+                    <div class="ww_modal_data_item">
+                        <dt>撮影時のポイント</dt>
+                        <dd>①鏡バリのスタジオであったため、自分が写り込みせずに写したいものがきちんと入る画角を模索<br>②時間に余裕のある場面では三脚を使って手ブレを予防<br>③撮りたいシーンが精査できておらず時間がなかったため、できるだけ効率的に進められるよう次のシーンの撮影準備までディレクション</dd>
+                    </div>
+                    <div class="ww_modal_data_item ww_modal_data_item--full">
+                        <dt>その他詳細</dt>
+                        <dd class="ww_modal_detail_free">
+                            <p>
+                                <span class="ww_modal_detail_free_label">撮影年</span>
+                                <span class="ww_modal_detail_text">2024</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">撮影データ形式</span>
+                                <span class="ww_modal_detail_text">RAW</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">担当領域(時間)</span>
+                                <span class="ww_modal_detail_text">撮影（1.5h）、編集(1.5h)</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">撮影機材</span>
+                                <span class="ww_modal_detail_text">SONY α7S III / FE 70-200mm F2.8 GM / E 11mm F1.8</span>
+                            </p>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+        <button class="ww_modal_close_btn">Close</button>
+    </div>
+</div>
+
+
+<!-- おのくんモーダル -->
+<div id="modal03" class="ww_modal_overlay">
+    <div class="ww_modal_content">
+
+        <div class="ww_modal_inner">
+            <img src="images/work_top_3.jpg" alt="">
+            <div class="ww_modal_top">
+
+                <div class="ww_modal_text_side">
+                    <div class="ww_modal_header">
+                        <h2 class="ww_modal_title">おのくん</h2>
+                        <div class="ww_modal_typeLink">
+                            <p class="ww_modal_type">プロフィール写真</p>
+                        </div>
+                    </div>
+                    <div class="ww_modal_description">
+                        <p>
+                            WEBクリエイターおのくんの商用プロフィール写真を撮影させていただきました。
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="ww_modal_bottom">
+                <dl class="ww_modal_data_list">
+                    <div class="ww_modal_data_item">
+                        <dt>撮影前のポイント</dt>
+                        <dd>①無料でビジネス感もありカッコいい雰囲気の写真を撮影できるスポットを選定
+                            <br>②大々的な顔出しは控えるため、サングラスを持参</dd>
+                    </div>
+                    <div class="ww_modal_data_item">
+                        <dt>撮影時のポイント</dt>
+                        <dd>①人や看板などの写り込みは回避<br>②光の当たる角度が綺麗な場所で撮影<br>③望遠で話しながら撮影することで自然な表情を引き出す<br>④利用シーンは未定の部分があったため、サングラスあり・なし両パターン撮影</dd>
+                    </div>
+                    <div class="ww_modal_data_item">
+                        <dt>編集時のポイント</dt>
+                        <dd>①LightroomClassicにて青味の多い写真と相性の良いプリセットを使用し効率的、かつ統一感を持って編集
+                            <br>②メイン利用の写真についてはPhotoshopにて丁度首元に重なる高さに位置していたへりやガラス面への写り込みなどを除去し仕上げ</dd>
+                    </div>
+                    <div class="ww_modal_data_item ww_modal_data_item--full">
+                        <dt>その他詳細</dt>
+                        <dd class="ww_modal_detail_free">
+                            <p>
+                                <span class="ww_modal_detail_free_label">撮影年</span>
+                                <span class="ww_modal_detail_text">2026</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">撮影データ形式</span>
+                                <span class="ww_modal_detail_text">RAW</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">担当領域(時間)</span>
+                                <span class="ww_modal_detail_text">撮影（15min）、編集(1.5h)</span>
+                            </p>
+                            <p>
+                                <span class="ww_modal_detail_free_label">撮影機材</span>
+                                <span class="ww_modal_detail_text">SONY α7S III / FE 70-200mm F2.8 GM</span>
+                            </p>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+        <button class="ww_modal_close_btn">Close</button>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script src="js/main.js"></script>
 </body>
+
 </html>
