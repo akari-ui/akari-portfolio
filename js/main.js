@@ -58,44 +58,6 @@ $(function() {
         });
     }
 
-    // 5. チェックマークの動き（Topページ用）
-    const items = document.querySelectorAll('.td_item');
-    const check = document.querySelector('.td_check-mark');
-    if(items.length >= 3 && check && document.querySelector(".td_list_wrapper")) {
-        const getPos = (el) => {
-            return {
-                x: el.offsetLeft + el.offsetWidth + 10,
-                y: el.offsetTop + (el.offsetHeight / 2) - 10
-            };
-        };
-        const pos1 = getPos(items[0]);
-        const pos2 = getPos(items[1]);
-        const pos3 = getPos(items[2]);
-        const tl = gsap.timeline({
-            scrollTrigger: {
-                trigger: ".td_list_wrapper",
-                start: "top 80%",
-                toggleActions: "play none none reverse",
-            },
-            delay: 2
-        });
-        tl.set(check, { x: pos1.x, y: pos1.y, opacity: 0, scale: 1 })
-          .to(check, { opacity: 1, duration: 0.1 })
-          .to({}, { duration: 0.6 })
-          .to(check, { opacity: 0, duration: 0.1 })
-          .set(check, { x: pos2.x, y: pos2.y })
-          .to(check, { opacity: 1, duration: 0.1 })
-          .to({}, { duration: 0.6 })
-          .to(check, { opacity: 0, duration: 0.1 })
-          .set(check, { x: pos3.x, y: pos3.y })
-          .to(check, { opacity: 1, duration: 0.1 })
-          .to({}, { duration: 1.0 })
-          .to(check, { opacity: 0, duration: 0.1 })
-          .set(check, { x: pos2.x, y: pos2.y })
-          .to(check, { opacity: 1, duration: 0.1 })
-          .to(check, { scale: 1.3, duration: 0.15, yoyo: true, repeat: 1, ease: "power2.out" });
-    }
-
     // 6. Worksカテゴリー切り替え
     const categoryTabs = $('.ww_category_tab');
     if (categoryTabs.length > 0) {
