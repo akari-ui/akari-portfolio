@@ -385,7 +385,7 @@ Data
   display: grid;
   place-items: center;
   width: 100%;           
-  max-width: 500px;      
+  max-width: 600px;      
   aspect-ratio: 1 / 1;  
   height: auto;
   position: relative;
@@ -1203,6 +1203,13 @@ contact
     font-size: 1.2rem;
     border: none;
     font-weight: normal;
+}
+
+.tc_btn > span {
+    white-space: nowrap;
+    display: block; /* 念のためブロック要素にして幅を認識させます */
+    width: 100%;    /* 親のaタグいっぱいに広げます */
+    text-align: center;
 }
 
 /* --- アニメーション --- */
