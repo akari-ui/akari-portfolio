@@ -412,11 +412,6 @@ Data
     width: min(17.5vw, 252px);
 }
 
-.td_info_area {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
 .td_label {
     padding: 10px 15px;
     font-family: "Tilt Warp", sans-serif;
@@ -435,28 +430,10 @@ Data
     justify-content: space-around;
     align-items: flex-end;
     flex-wrap: wrap;
+    margin-top: -200px;
 }
 
-.td_list_wrapper {
-    position: relative;
-}
 
-.td_list {
-    list-style: none;
-    padding: 0;
-    font-size: clamp(14px, 1.67vw, 24px);
-    line-height: 1.5;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.td_list li {
-    line-height: 2.5;
-    width: fit-content;
-    /* 文字の長さに幅を合わせる */
-}
 
 .td_check-mark {
     position: absolute;
@@ -470,12 +447,6 @@ Data
     z-index: 100;
 }
 
-.td_type_block {
-    margin-top: clamp(30px, 6.18vw, 89px);
-    display: flex;
-    align-items: center;
-    gap: clamp(15px, 2.08vw, 30px);
-}
 
 .td_type_text {
     font-size: clamp(14px, 1.67vw, 24px);
@@ -486,28 +457,54 @@ Data
     width: 34px;
 }
 
+.td_mindset_area {
+    flex: 1; /* 余白に応じて柔軟に広がる */
+    max-width: 500px; /* チャートの最大幅と合わせると綺麗です */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
 
-@media screen and (max-width: 2000px) {
+/* ラベルの色の個別設定（もしピンク以外にしたい場合用。現状は共通設定が活きます） */
+.td_label.mindset {
+    background-color: var(--primary-pink);
+}
+
+/* マッピング画像自体の設定 */
+.td_mindset_container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.td_mapping_img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1320px) {
     .td_container {
         margin-top: -100px;
     }
 }
 
-@media screen and (max-width: 1700px) {
+@media screen and (max-width: 1130px) {
     .td_container {
-        margin-top: -200px;
+        margin-top: -60px;
     }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 850px) {
     .td_container {
-        margin-top: -150px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .td_container {
-        margin-top: -100px;
+        margin-top: 0;
+        flex-direction: column;
+        padding: 0 15px;
+        gap: clamp(40px, 5vw, 80px);
+        align-items: center;
+        text-align: left;
     }
 }
 
@@ -516,11 +513,6 @@ Data
         padding-bottom: 64px;
     }
 
-    .td_action_block {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start
-    }
 
     .td_chart-container {
         max-width: 400px;
@@ -533,14 +525,6 @@ Data
         height: auto;
     }
 
-    .td_info_area {
-        gap: 30px;
-        width: 100%;
-        max-width: 500px;
-        /* コンテンツ幅に合わせて少し広げる */
-        align-items: center;
-    }
-
     .td_label {
         font-size: clamp(14px, 2.57vw, 18px);
     }
@@ -549,34 +533,29 @@ Data
         font-size: clamp(14px, 2.57vw, 18px);
     }
 
-    .td_list {
-        margin-top: 0;
-        margin-left: 20px;
-        font-size: clamp(14px, 2.57vw, 18px);
+    .td_mindset_container {
+        width: 100%;     /* 親の幅いっぱいに広がるように明示 */
+        text-align: center;
     }
-
-    .td_container {
-        margin-top: 0;
-        flex-direction: column;
-        padding: 0 15px;
-        gap: clamp(40px, 5vw, 80px);
+    
+    .td_mindset_area {
+        flex: none;
+        width: 100%;     
+        max-width: 100%;
         align-items: center;
-        text-align: left;
+        max-width: 100%;
+        margin-top: 20px;
     }
 
-    /* チェックマークの位置計算がズレないよう、基準をリセット */
-    .td_list_wrapper {
-        width: fit-content;
+    .td_mapping_img {
+        width: 90vw; 
+        max-width: 450px;
         margin: 0 auto;
+        height: auto;
+        display: block;
     }
 }
 
-@media screen and (max-width: 460px) {
-    .td_action_block {
-        flex-direction: column;
-        gap: 20px;
-    }
-}
 
 @media screen and (max-width: 400px) {
     .td_label:first-child {
