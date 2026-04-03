@@ -88,7 +88,7 @@ body{
     margin-bottom: 15px; /* 影の分、少し余白を広げると綺麗です */
     
     /* Figmaの設定を反映: X Y ぼかし 広がり 色 */
-    box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
 .ww_thumb {
@@ -108,13 +108,15 @@ body{
 
 /* Work Info */
 .ww_title {
+    margin-top: 5px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .ww_type {
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-weight: 200;
 }
 
 /* --- Tag with Subtle Dot Shadow --- */
@@ -122,7 +124,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 12px 16px; /* ドットが重ならないよう少し広めに */
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .ww_tag {
@@ -251,7 +253,7 @@ body{
 /* テキスト装飾 */
 .ww_modal_title {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
