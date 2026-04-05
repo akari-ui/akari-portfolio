@@ -35,6 +35,7 @@
 </head>
 
 <body class="firstAnimation">
+        <div id="loading"></div>
         <header class="headerWrapper">
             <nav class="nav">
                 <button class="spNav_btn" aria-label="メニューを開く"></button>
@@ -48,7 +49,7 @@
             <div class="firstview">
                 <picture class="tt_fvWapper">
                     <source media="(min-width: 600px)" srcset="images/tt_fv_pc.webp">
-                    <img class="tt_fv" src="images/tt_fv_sp.webp" alt="カメラを抱えて微笑む柏木あかりの写真">
+                    <img class="tt_fv" src="images/tt_fv_sp.webp" alt="カメラを抱えて微笑む柏木あかりの写真" fetchpriority="high" decoding="async">
                 </picture>
                 <h1><img class="akari-logo-img" src="images/akari-logo.svg" alt="akari ロゴ"></h1>
             </div>
