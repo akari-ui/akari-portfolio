@@ -13,8 +13,6 @@ $(function() {
         const $list = $('.nav_list');
         const $body = $('body');
 
-        // 0.1秒（100ms）だけ処理を遅らせる
-        // これだけで、遷移の瞬間のアイコン消失が目立たなくなります
         setTimeout(function() {
             $btn.removeClass('is-open');
             $list.removeClass('is-open');
@@ -22,7 +20,7 @@ $(function() {
         }, 100); 
     });
 
-    // 2. スライダー設定（IntersectionObserverによるドットの連動）
+    // 2. スライダー設定
     const setupSlider = (container) => {
         const slides = container.querySelectorAll('.al_slide');
         const dotsContainer = container.nextElementSibling;
@@ -44,7 +42,7 @@ $(function() {
     // 3. GSAPプラグインの登録
     gsap.registerPlugin(ScrollTrigger);
 
-    // 4. チャートアニメーション（Topページ用）
+    // 4. チャートアニメーション
     if (document.querySelector(".td_pink-mask")) {
         gsap.to(".td_pink-mask", {
           scrollTrigger: {
@@ -92,22 +90,19 @@ $(function() {
         });
     }
 
-    // 7. Works詳細モーダル（複数モーダル対応版）
-    // カードをクリックして対応するIDのモーダルを開く
+// 7. Works詳細モーダル（修正版）
     $('.ww_card').on('click', function() {
         const targetId = $(this).data('modal');
         if (targetId) {
             $('#' + targetId).fadeIn(300);
-            $('body').css('overflow', 'hidden'); // 背景スクロール禁止
+            $('body').addClass('is-modal-open'); // クラスを追加
         }
     });
 
-    // モーダルを閉じる処理（オーバーレイ、または閉じるボタンをクリック）
     $('.ww_modal_overlay').on('click', function(e) {
-        // ボタンをクリック、または「背景（contentの外側）」をクリックした時に閉じる
         if($(e.target).hasClass('ww_modal_close_btn') || !$(e.target).closest('.ww_modal_content').length) {
             $(this).fadeOut(300);
-            $('body').css('overflow', ''); // スクロール再開
+            $('body').removeClass('is-modal-open'); // クラスを削除
         }
     });
 });
