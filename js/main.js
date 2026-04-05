@@ -1,6 +1,13 @@
 'use strict';
 
+$(window).on('load', function() {
+    setTimeout(function() {
+        $('#loading').addClass('loaded');
+    }, 800);
+});
+
 $(function() {
+
     // 1. ハンバーガーメニュー
     $('.spNav_btn').on('click', function() {
         $(this).toggleClass('is-open');
@@ -90,19 +97,19 @@ $(function() {
         });
     }
 
-// 7. Works詳細モーダル（修正版）
+    // 7. Works詳細モーダル（修正版）
     $('.ww_card').on('click', function() {
         const targetId = $(this).data('modal');
         if (targetId) {
             $('#' + targetId).fadeIn(300);
-            $('body').addClass('is-modal-open'); // クラスを追加
+            $('body').addClass('is-modal-open'); 
         }
     });
 
     $('.ww_modal_overlay').on('click', function(e) {
         if($(e.target).hasClass('ww_modal_close_btn') || !$(e.target).closest('.ww_modal_content').length) {
             $(this).fadeOut(300);
-            $('body').removeClass('is-modal-open'); // クラスを削除
+            $('body').removeClass('is-modal-open'); 
         }
     });
 });
