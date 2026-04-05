@@ -84,7 +84,7 @@ body{
     width: 100%;
     aspect-ratio: 3 / 2; /* ここで3:2を固定 */
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 7px;
     margin-bottom: 15px; /* 影の分、少し余白を広げると綺麗です */
     
     /* Figmaの設定を反映: X Y ぼかし 広がり 色 */
@@ -95,7 +95,11 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover; /* 比率を維持して隙間なく表示 */
-    transition: transform 0.5s ease;
+    transition: transform 0.7s ease;
+}
+
+.ww_thumb.photo {
+    filter: brightness(1.1);
 }
 
 .ww_card:hover .ww_thumb {
@@ -206,7 +210,18 @@ body{
 }
 
 .ww_modal_inner{
+    display: flex;
+    flex-direction: column; /* 要素を縦に並べる */
+    gap: 40px;              /* ★画像と画像、画像とテキストの間の余白 */
+    width: 100%;
     margin-bottom: 40px;
+}
+
+/* モーダル内の画像自体の設定 */
+.ww_modal_img {
+    width: 100%;            /* 横幅を親要素に合わせる */
+    height: auto;           /* アスペクト比を維持 */
+    display: block;         /* 下に謎の隙間ができるのを防ぐ */
 }
 
 /* 3. 閉じるボタン */
@@ -363,7 +378,7 @@ body{
 }
 
 .ww_modal_detail_free_label{
-    width: 151px;
+    width: 200px;
 }
 
 .ww_modal_detail_text{
@@ -386,6 +401,28 @@ body{
 
     .pcBr{
         display: none;
+    }
+}
+
+@media screen and (max-width: 794px) {
+    /* pタグの横並びを解除して縦並びにする */
+    .ww_modal_detail_free p {
+        flex-direction: column;
+        align-items: flex-start; /* 左寄せにする */
+        gap: 4px; /* ラベルとテキストの間のわずかな隙間 */
+        margin-bottom: 15px; /* 各項目ごとの間隔 */
+    }
+
+    /* ラベルの幅を100%にして、固定幅(200px等)を解除する */
+    .ww_modal_detail_free_label {
+        width: 100% !important;
+        font-weight: bold; /* ラベルを目立たせる */
+    }
+
+    /* テキスト側の左余白などがあればリセットする */
+    .ww_modal_detail_free_text {
+        width: 100%;
+        padding-left: 0;
     }
 }
 

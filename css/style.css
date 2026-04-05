@@ -39,6 +39,8 @@ body {
     letter-spacing: 0.7px;
 }
 
+
+
 img {
     max-width: 100%;
     height: auto;
@@ -185,17 +187,6 @@ header
     z-index: 10;
 }
 
-/* .nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
-    padding: 20px 0 60px;
-
-    z-index: 20;
-} */
-
 .nav {
     position: fixed; 
     top: 0;          
@@ -222,41 +213,39 @@ header
     z-index: 9999;     
 }
 
+/* ★追加：モーダル表示中、PC版のナビゲーションを隠す */
+body.is-modal-open .nav_list {
+    display: none !important;
+}
+
 @media screen and (max-width: 599px) {
     .firstview h1 {
         width: 45%;
     }
-
 
     .nav_list {
         display: flex;
         position: fixed;
         top: 0;
         right: 0;
-
-        /* 1. 幅を画面の約半分〜6割くらいに変更 */
         width: 60%;
         height: 80vh;
         flex-direction: column;
         justify-content: center;
-
-        /* 2. 背景色を白（透過なし）にして、左側に角丸をつける */
         background-color: #fff;
-        border-radius: 0 0 0 30px;
-        /* 左上と左下に大きな角丸 */
-
-        /* 3. 影をつけて浮かんでいる感じを出す（お好みで） */
+        border-radius: 0 0 0 15px;
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
-
         z-index: 100;
         padding: 0;
         margin: 0;
         gap: clamp(20px, 6.04vh, 60px);
-
-        /* アニメーション設定 */
         transform: translateX(100%);
         transition: transform 0.4s ease;
-        /* transition: all より transform 指定がスムーズです */
+    }
+
+    /* ★追加：モーダル表示中、SP版のナビリストが強制的に出ないようにする */
+    body.is-modal-open .nav_list {
+        display: none !important;
     }
 
     .spNav_btn {
@@ -267,29 +256,27 @@ header
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
-
         background-color: transparent;
         border: none;
         cursor: pointer;
-
         position: absolute;
         top: 15px;
         right: 4%;
         z-index: 30;
     }
 
+    /* ★追加：モーダル表示中、スマホのハンバーガーボタンを隠す */
+    body.is-modal-open .spNav_btn {
+        display: none !important;
+    }
+
     button.spNav_btn.is-open {
         display: block;
         background-image: url("../images/btn-close.svg");
-
         position: fixed;
-        /* 画面に対して固定 */
         top: 15px;
-        /* 閉じる前と同じ位置をキープ */
         right: 4%;
-        /* 閉じる前と同じ位置をキープ */
         z-index: 110;
-        /* 白いメニュー（z-index: 100）より上に表示 */
     }
 
     .nav_list.is-open {
@@ -298,11 +285,10 @@ header
 
     .nav_list.is-open .nav_item img {
         display: block;
-        width: 30px;
+        width: 20px;
         height: auto;
     }
 
-    /* テキストとアイコンを横に並べる */
     .nav_item a {
         display: flex;
         align-items: center;
@@ -318,8 +304,24 @@ header
     z-index: 110;
 }
 
-body.noscroll {
+body.noscroll,
+body.is-modal-open { /* ★is-modal-open時もスクロール禁止を適用 */
     overflow: hidden;
+}
+
+/* モーダルが開いている時、ヘッダー要素を強制的に消す */
+body.is-modal-open .headerWrapper,
+body.is-modal-open .nav,
+body.is-modal-open .nav_list,
+body.is-modal-open .spNav_btn {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* モーダル表示中のスクロール禁止 */
+body.is-modal-open {
+    overflow: hidden !important;
 }
 
 /* ==================================================================================================
@@ -1359,7 +1361,7 @@ contact
 
 @media screen and (max-width: 575px) {
     .tc_deco_hands {
-        bottom: -20px;
+        bottom:30px;
     }
 
     .tc_content {
@@ -1372,7 +1374,11 @@ contact
 @media screen and (max-width: 399px) {
     .tc_deco_hands {
         max-width: 230px;
-        bottom: 50px;
+        bottom:0;
+    }
+
+        .tc_content {
+        min-height: 460px;
     }
 }
 
